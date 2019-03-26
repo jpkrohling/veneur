@@ -3,6 +3,7 @@
 ### Added
 
 * The Kafka sink now includes metrics for skipped and dropped spans, as well as a debug log line for flushes. Thanks, [franklinhu](https://github.com/franklinhu)
+* New configuration options `veneur_metrics_scopes` and `veneur_metrics_additional_tags`, which allow configuring veneur such that it aggregates its own metrics globally (rather than reporting a set of internal metrics per instance/container/etc). Thanks, [antifuchs](https://github.com/antifuchs)!
 
 ## Updated
 
